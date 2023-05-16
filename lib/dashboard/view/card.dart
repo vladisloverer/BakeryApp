@@ -1,4 +1,6 @@
+import 'package:app_bakery/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 class CardView extends StatelessWidget {
   final AssetImage image;
@@ -9,6 +11,8 @@ class CardView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       clipBehavior: Clip.antiAlias,
+      elevation: 5,
+      shadowColor: HexColor(secondaryColor),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(24),
       ),

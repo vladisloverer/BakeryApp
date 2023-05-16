@@ -4,3 +4,4 @@ const String pasticceriaLabel = "Pasticceria";
 const String donutsLabel = "Donuts";
 const String torteLabel = "Torte";
 const String croissantLabel = "Croissant";
+const String bakeryVendorLabel = "Bakery Vendor";

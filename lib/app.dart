@@ -17,7 +17,7 @@ class App extends StatelessWidget {
         scaffoldBackgroundColor: HexColor(whiteColor),
         appBarTheme: AppBarTheme(
             elevation: 0,
-            titleSpacing: -10,
+            titleSpacing: 10,
             toolbarHeight: 40,
             backgroundColor: HexColor(primaryColor),
             titleTextStyle: const TextStyle(
