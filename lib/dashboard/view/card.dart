@@ -1,11 +1,14 @@
-import 'package:app_bakery/constants/colors.dart';
 import 'package:flutter/material.dart';
+
 import 'package:hexcolor/hexcolor.dart';
+
+import 'package:app_bakery/constants/colors.dart';
 
 class CardView extends StatelessWidget {
   final AssetImage image;
   final String text;
-  const CardView({super.key, required this.image, this.text = ''});
+  final void Function()? onTap;
+  const CardView({super.key, required this.image, this.text = '', this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -21,11 +24,9 @@ class CardView extends StatelessWidget {
         children: [
           Ink.image(
             image: image,
-            height: 200,
+            height: 150,
             fit: BoxFit.cover,
-            child: InkWell(
-              onTap: () {},
-            ),
+            child: InkWell(onTap: onTap ?? () {}),
           ),
           Text(
             text,
