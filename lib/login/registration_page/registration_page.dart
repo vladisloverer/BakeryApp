@@ -1,7 +1,7 @@
 import 'package:app_bakery/constants/constants.dart';
 import 'package:flutter/material.dart';
 
-class RegistrationPage extends StatelessWidget{
+class RegistrationPage extends StatelessWidget {
   const RegistrationPage({super.key});
 
   @override
@@ -10,11 +10,8 @@ class RegistrationPage extends StatelessWidget{
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Text(registerLabel)
-        ],
+        children: [Text(registerLabel)],
       ),
     );
   }
-
 }
