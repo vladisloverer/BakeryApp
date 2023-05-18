@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import 'package:app_bakery/constants/constants.dart';
-import 'package:app_bakery/login/login_page/views/style_costans.dart';
+import 'package:app_bakery/login/login_page/views/style_costants.dart';
 
 class EmailField extends StatelessWidget {
   const EmailField({super.key});

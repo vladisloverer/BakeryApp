@@ -11,4 +11,8 @@ const String emailLabel = "Email";
 const String emailInputLabel = "Enter your email";
 const String passwordLabel = "Password";
 const String passwordInputLabel = "Enter your password";
-
+const String forgotPassLabel = "Forgot password?";
+const String rememberMeLabel = "Remember me";
+const String loginButtonLabel = "LOGIN";
+const String registerButtonLabel = "Sign in";
+const String dontHaveAccountLabel = "Don't have an Account? ";

@@ -5,3 +5,4 @@ const String pinkColor = "#ffd5dc";
 const String brownColor = "#a72e2e";
 const String blackColor = "#000000";
 const String greyColor = "#aabbcc";
+const String activePinkColor = "#fba1b1";

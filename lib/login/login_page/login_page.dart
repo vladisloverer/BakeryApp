@@ -1,3 +1,7 @@
+import 'package:app_bakery/login/login_page/views/forgot_password_button.dart';
+import 'package:app_bakery/login/login_page/views/login_button.dart';
+import 'package:app_bakery/login/login_page/views/register_button.dart';
+import 'package:app_bakery/login/login_page/views/remember_me.dart';
 import 'package:flutter/material.dart';
 
 import 'package:app_bakery/constants/constants.dart';
@@ -11,7 +15,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 219, 184, 230),
+        backgroundColor: const Color.fromARGB(255, 219, 184, 230),
       ),
       body: Stack(
         children: [
@@ -57,7 +61,11 @@ class LoginPage extends StatelessWidget {
                         SizedBox(
                           height: 30,
                         ),
-                        PasswordField()
+                        PasswordField(),
+                        ForgotPasswordButton(),
+                        RememberMe(),
+                        LoginButton(),
+                        RegisterButton()
                       ]))),
         ],
       ),
